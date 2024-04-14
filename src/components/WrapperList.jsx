@@ -1,4 +1,4 @@
-export const WapperList = props => {
+/*export const WapperList = props => {
     const { children } = props 
 
     return (
@@ -9,4 +9,4 @@ export const WapperList = props => {
             </div>
         </div>
     )
-}
+}*/
