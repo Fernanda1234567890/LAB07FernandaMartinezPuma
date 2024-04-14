@@ -1,17 +1,13 @@
-
 import './App.css'
-import { List } from './components/List';
 //import { Button } from './components/Button'
-import { WapperList } from './components/WrapperList';
+import { Q4 } from './components/RandomComponent'
 function App() {
 
- // const buttonText = "Count : ";
-  
   return (
     <>      
-      <WapperList>
-        <List/>
-      </WapperList>
+      
+        <Q4/>
+      
     </>
   )
 }
