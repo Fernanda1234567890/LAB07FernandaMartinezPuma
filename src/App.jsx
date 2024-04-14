@@ -1,17 +1,19 @@
-
+import { useState } from 'react'
 import './App.css'
-import { List } from './components/List';
-//import { Button } from './components/Button'
-import { WapperList } from './components/WrapperList';
-function App() {
+import { Button } from './components/Button'
 
- // const buttonText = "Count : ";
-  
+function App() {
+  const[count, setCount] = useState(0);
+
   return (
-    <>      
-      <WapperList>
-        <List/>
-      </WapperList>
+    <> 
+      <h1> Laboratorio N° 7 </h1>  
+        <div className='card'>
+        
+          <button onClick={() => setCount((count) => count +5)}>
+            count is {count}
+          </button>
+        </div>
     </>
   )
 }
